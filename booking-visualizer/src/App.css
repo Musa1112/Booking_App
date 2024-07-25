@@ -1,0 +1,72 @@
+/* src/App.css */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.ProductList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ProductCard {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.ProductCard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ProductCard img {
+  width: 100%;
+}
+
+.ProductCard h2 {
+  font-size: 1.5em;
+}
+
+h2{
+  text-decoration-color: rgb(72, 72, 238);
+}
+
+
+
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  color: #26ccd8;
+}
+
+h2 {
+  color: #5262f0;
+}
+
+
+p {
+  font-size: 0.9em;
+  color: #6c757d; /* Gray color for description */
+}
+
+.product-reviews {
+  font-size: 0.9em;
+  color: #ffc107; /* Amber color for reviews */
+}
